@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px 10px 20px;
+}
+
+nav .current {
+  color: #015237;
+  background-color: #a0ffdf;
+}
+
+nav .current:hover {
+  color: #015237;
+  background-color: #a0ffdf;
+}
+
+nav .navH1 {
+  font-size: 80px;
+  font-family: Cooper Black;
+  background: linear-gradient(to right, #cc6600, #ff0000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+nav .navH1:hover {
+  background: linear-gradient(to right, #ffa851, #ff0000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+nav li {
+  padding: 0px 5px;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Forte;
+  /*background: linear-gradient(to right, #00ff66, #00ffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;*/
+  color: #00ff66;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+nav a:hover {
+  color: #5e0066;
+  background-color: #ffccff;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+details {
+  margin-left: 20px;
+}
+
+summary {
+  font-size: 50px;
+  font-family: Cooper Black;
+  background: linear-gradient(to right, #003585, #006d00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.details-content {
+  font-size: 20px;
+  font-family: Berlin Sans FB;
+}
+
+.details-content u {
+  font-weight: bold;
+}
+
+.details-content dt {
+  font-size: 30px;
+  font-weight: bold;
+  background: #520000;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
