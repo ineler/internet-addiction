@@ -88,7 +88,7 @@ details {
 }
 
 summary {
-  font-size: 50px;
+  font-size: 40px;
   font-family: Cooper Black;
   background: linear-gradient(to right, #003585, #006d00);
   -webkit-text-fill-color: transparent;
@@ -110,4 +110,19 @@ summary {
   background: #520000;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+details ul {
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+details p {
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+details ol {
+  padding-bottom: 10px;
+  padding-left: 60px;
 }

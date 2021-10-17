@@ -111,3 +111,12 @@ summary {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+details p {
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+details ul {
+  padding-left: 60px;
+}
